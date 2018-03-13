@@ -42,6 +42,7 @@ public class teglalapfut2 {
 			if(rectangles[i].getOldalakEgyeznekE(newRectangles)){
 				isTrue = true;
 				index = i;
+				break;
 			}
 		}
 		if(isTrue)
