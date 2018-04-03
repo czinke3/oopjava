@@ -1,4 +1,4 @@
-package x;
+package tehlalap;
 
 public class teglalapfut {
 
