@@ -8,9 +8,22 @@ public class Bread extends Product {
 		this.amount = amount;
 	}
 	
+	public double getBreadPrice() {
+		return this.getGrossPrice() / this.amount;
+	}
+	
 	public String toString() {
 		return super.toString() + " egységár: " + (this.getGrossPrice() / this.amount);
 	}
 	
+	public double getAmount() {
+		return this.amount;
+	}
 
+	public static boolean BreadPriceCompare(Bread b1, Bread b2) {
+		if(b1.getBreadPrice() > b2.getBreadPrice())
+			return true;
+		
+		return false;
+	}
 }
