@@ -10,7 +10,7 @@ public  class Test {
 	int[] array = new int[5];
 	
 	try{
-		readNextIn(array);
+		readNexIn(array);
 	} catch (PrimeException e){
 		e.printStackTrace();
 	}
